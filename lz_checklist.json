@@ -122,14 +122,14 @@
     {
       "category": "Subscriptions",
       "subcategory": "Subscriptions",
-      "text": "Enforce a�platform�management group under the root management group to support common platform policy and Azure role assignment",
+      "text": "Enforce a platform management group under the root management group to support common platform policy and Azure role assignment",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/governance/management-groups/overview"
     },
     {
       "category": "Subscriptions",
       "subcategory": "Subscriptions",
-      "text": "Enforce a dedicated connectivity subscription in the�Platform�management group to host an Azure Virtual WAN hub, private Domain Name System (DNS), ExpressRoute circuit, and other networking resources.",
+      "text": "Enforce a dedicated connectivity subscription in the Platform management group to host an Azure Virtual WAN hub, private Domain Name System (DNS), ExpressRoute circuit, and other networking resources.",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/governance/management-groups/overview"
     },
@@ -143,7 +143,7 @@
     {
       "category": "Subscriptions",
       "subcategory": "Subscriptions",
-      "text": "Enforce that only privileged users can operate management groups in the tenant by enabling Azure RBAC authorization in the management group�hierarchy settings",
+      "text": "Enforce that only privileged users can operate management groups in the tenant by enabling Azure RBAC authorization in the management group hierarchy settings",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/governance/management-groups/overview"
     },
@@ -199,7 +199,7 @@
     {
       "category": "Subscriptions",
       "subcategory": "Subscriptions",
-      "text": "If AD on Windows Server, establish a dedicated identity subscription in the�Platform�management group to host Windows Server Active Directory domain controllers",
+      "text": "If AD on Windows Server, establish a dedicated identity subscription in the Platform management group to host Windows Server Active Directory domain controllers",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/governance/management-groups/overview"
     },
@@ -227,7 +227,7 @@
     {
       "category": "Networking",
       "subcategory": "IP plan",
-      "text": "Ensure that IP address space isn't wasted, don't create unnecessarily large virtual networks (for example,�/16) ",
+      "text": "Ensure that IP address space isn't wasted, don't create unnecessarily large virtual networks (for example /16) ",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing"
     },
@@ -290,7 +290,7 @@
     {
       "category": "Networking",
       "subcategory": "Virtual WAN",
-      "text": "Use�Virtual Hub Routing�features to further segment traffic between VNets and branches.",
+      "text": "Use Virtual Hub Routing features to further segment traffic between VNets and branches.",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about"
     },
@@ -353,7 +353,7 @@
     {
       "category": "Networking",
       "subcategory": "Virtual WAN",
-      "text": "Use�Azure Monitor Insights for Virtual WAN to monitor the end-to-end topology of the Virtual WAN as well as status and key�metrics.",
+      "text": "Use Azure Monitor Insights for Virtual WAN to monitor the end-to-end topology of the Virtual WAN as well as status and key metrics.",
       "severity": "Medium",
       "link": ""
     },
@@ -409,7 +409,7 @@
     {
       "category": "Networking",
       "subcategory": "Hub and spoke",
-      "text": "Use�Azure Monitor for Networks to monitor the end-to-end state of the networks on Azure.",
+      "text": "Use Azure Monitor for Networks to monitor the end-to-end state of the networks on Azure.",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/expressroute/expressroute-faqs"
     },
@@ -612,7 +612,7 @@
     {
       "category": "Networking",
       "subcategory": "Internet",
-      "text": "Use�Azure DDoS Protection Standard protection plans�to help protect all public endpoints hosted within the virtual networks.",
+      "text": "Use Azure DDoS Protection Standard protection plans to help protect all public endpoints hosted within the virtual networks.",
       "severity": "Medium",
       "link": "https://azure.microsoft.com/solutions/network-appliances/"
     },
@@ -724,7 +724,7 @@
     {
       "category": "Networking",
       "subcategory": "Encryption",
-      "text": "When you're using ExpressRoute Direct, configure�MACsec�in order to encrypt traffic at the layer-two level between the organization's routers and MSEE. The diagram shows this encryption in flow�B.",
+      "text": "When you're using ExpressRoute Direct, configure MACsec in order to encrypt traffic at the layer-two level between the organization's routers and MSEE. The diagram shows this encryption in flow.",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/virtual-network/network-security-group-how-it-works"
     },
@@ -773,7 +773,7 @@
     {
       "category": "Management",
       "subcategory": "Monitoring",
-      "text": "Use a single�monitor logs workspace�to manage platforms centrally except where Azure role-based access control (Azure RBAC)",
+      "text": "Use a single monitor logs workspace to manage platforms centrally except where Azure role-based access control (Azure RBAC)",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/private-link/inspect-traffic-with-azure-firewall"
     },
@@ -843,7 +843,7 @@
     {
       "category": "Management",
       "subcategory": "Monitoring",
-      "text": "Include�service�and�resource�health events as part of the overall platform monitoring solution. Tracking service and resource health from the platform perspective is an important component of resource management in Azure.",
+      "text": "Include service and resource health events as part of the overall platform monitoring solution. Tracking service and resource health from the platform perspective is an important component of resource management in Azure.",
       "severity": "Medium",
       "link": "https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources?tabs=json"
     },
@@ -1133,6 +1133,23 @@
       "text": "Plan how service request will be fullfilled for Azure services",
       "severity": "Medium",
       "link": "https://www.microsoft.com/itshowcase/implementing-a-zero-trust-security-model-at-microsoft"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Identity"
+    },
+    {
+      "name": "Network"
+    },
+    {
+      "name": "Security"
+    },
+    {
+      "name": "Management"
+    },
+    {
+      "name": "Subscriptions"
     }
   ]
 }
